@@ -6,6 +6,7 @@ gem 'neo4j', git: 'git://github.com/andreasronge/neo4j.git', branch: 'rails5'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'rspec-rails', '~> 3.0'
 end
 
 group :development do
